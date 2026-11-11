@@ -173,4 +173,4 @@ html,body{margin:0;min-height:100%;}
 /* Balance the final wedding card in the five-event family layout. */
 @media(min-width:681px){.events-grid>.event:last-child{grid-column:1 / -1;width:calc((100% - 30px)/2);justify-self:center}}
 
-.muhurtham-announcement{margin:24px 0 0;padding:13px 16px;border-left:2px solid #b7965c;background:linear-gradient(90deg,#f2e6ca99,transparent);color:#785c35;font:500 15px/1.5 Jost,Arial,sans-serif;letter-spacing:.025em}
+.muhurtham-announcement{position:relative;z-index:3;margin:24px 0 0;padding:13px 16px;border-left:2px solid #b7965c;background:#fbf6e8ed;color:#785c35;font:500 15px/1.5 Jost,Arial,sans-serif;letter-spacing:.025em}
